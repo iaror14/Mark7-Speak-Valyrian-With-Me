@@ -16,7 +16,7 @@ function clickHandler() {
   console.log("clicked");
   var inputText = txtAreaInput.value;
 
-  fetch(getTranslation(inputText))
+  fetch(finalServer(inputText))
     .then((response) => response.json())
     .then((json) => {
       var translateText = json.contents.translated;
