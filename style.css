@@ -51,3 +51,9 @@ div.footer-format {
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
 }
+textarea {
+  padding: 1rem;
+  text-align: center;
+  background-color: #e7dede;
+  font-size: large;
+}
